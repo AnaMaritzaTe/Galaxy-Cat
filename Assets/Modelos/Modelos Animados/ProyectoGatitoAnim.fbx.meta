@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: 948abdb55cfae0e4580eac7415ed4f7c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: a117a07bef1187045a79be5e1512c3ab, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle1
+      takeName: Idle1
+      internalID: -6775884027671718737
+      firstFrame: 0
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_d
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_d/shustrilo4_6:Eye_L_d
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_d/shustrilo4_6:Eye_L_d/shustrilo4_6:Eye_L_d_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_up
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_up/shustrilo4_6:Eye_L_up
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_up/shustrilo4_6:Eye_L_up/shustrilo4_6:Eye_L_up_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_d
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_d/shustrilo4_6:Eye_R_d
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_d/shustrilo4_6:Eye_R_d/shustrilo4_6:Eye_R_d_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_up
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_up/shustrilo4_6:Eye_R_up
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_up/shustrilo4_6:Eye_R_up/shustrilo4_6:Eye_R_up_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_L/shustrilo4_6:EarEnd_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_L/shustrilo4_6:EarEnd_L/shustrilo4_6:EarEnd_L_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_R/shustrilo4_6:EarEnd_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_R/shustrilo4_6:EarEnd_R/shustrilo4_6:EarEnd_R_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_L/shustrilo4_6:Eye1_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_L/shustrilo4_6:Eye1_L/shustrilo4_6:Eye1_L_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_R/shustrilo4_6:Eye1_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_R/shustrilo4_6:Eye1_R/shustrilo4_6:Eye1_R_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Hair_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Hair_M/shustrilo4_6:Hair_M_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Jaw_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Jaw_M/shustrilo4_6:JawEnd_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Jaw_M/shustrilo4_6:JawEnd_M/shustrilo4_6:JawEnd_M_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L/shustrilo4_6:frontAnkle_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L/shustrilo4_6:frontAnkle_L/shustrilo4_6:frontBall_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L/shustrilo4_6:frontAnkle_L/shustrilo4_6:frontBall_L/shustrilo4_6:frontBall_L_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R/shustrilo4_6:frontAnkle_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R/shustrilo4_6:frontAnkle_R/shustrilo4_6:frontBall_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R/shustrilo4_6:frontAnkle_R/shustrilo4_6:frontBall_R/shustrilo4_6:frontBall_R_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L/shustrilo4_6:backAnkle_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L/shustrilo4_6:backAnkle_L/shustrilo4_6:backBall_L
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L/shustrilo4_6:backAnkle_L/shustrilo4_6:backBall_L/shustrilo4_6:backBall_L_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R/shustrilo4_6:backAnkle_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R/shustrilo4_6:backAnkle_R/shustrilo4_6:backBall_R
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R/shustrilo4_6:backAnkle_R/shustrilo4_6:backBall_R/shustrilo4_6:backBall_R_end
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M/shustrilo4_6:Tail5_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M/shustrilo4_6:Tail5_M/shustrilo4_6:Tail6_M
+        weight: 1
+      - path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M/shustrilo4_6:Tail5_M/shustrilo4_6:Tail6_M/shustrilo4_6:Tail6_M_end
+        weight: 1
+      - path: shustrilo4_6:eye_L007
+        weight: 1
+      - path: shustrilo4_6:eye_R006
+        weight: 1
+      - path: shustrilo4_6:full_lazy002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump.001
+      takeName: Jump.001
+      internalID: 7664120462568309158
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Death
+      internalID: 4348485665485846014
+      firstFrame: 0
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fall.001
+      takeName: Fall.001
+      internalID: -8909159074999440836
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hurt.001
+      takeName: Hurt.001
+      internalID: -6480320855118108071
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Down.001
+      takeName: Down.001
+      internalID: 6977877194942273878
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run.001
+      takeName: Run.001
+      internalID: 6281953650394205071
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Down.002
+      takeName: Down.002
+      internalID: -3313665342024139942
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Atack
+      takeName: Atack
+      internalID: 6975084725166020838
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RunCopia.001
+      takeName: RunCopia.001
+      internalID: -8163195286175841452
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Armature|Take 001|BaseLayer
+      takeName: Armature|Armature|Take 001|BaseLayer
+      internalID: 5862543501114407046
+      firstFrame: 0
+      lastFrame: 1199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Atack
+      takeName: Armature|Atack
+      internalID: -4667240241141223586
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Death
+      takeName: Armature|Death
+      internalID: -982115091633673366
+      firstFrame: 0
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Down
+      takeName: Armature|Down
+      internalID: -7083017359317430695
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Fall
+      takeName: Armature|Fall
+      internalID: -5025487861805838091
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Hurt
+      takeName: Armature|Hurt
+      internalID: 9149661223541978141
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle1
+      takeName: Armature|Idle1
+      internalID: 2789604289822619476
+      firstFrame: 0
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump
+      takeName: Armature|Jump
+      internalID: 1079665108409675491
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      internalID: -7551964380084998518
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RunCopia
+      takeName: Armature|RunCopia
+      internalID: -7063313941709986173
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jumpNuevo
+      takeName: Jump.001
+      internalID: -8090042432647555201
+      firstFrame: 18.1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Agacharse
+      takeName: Armature|Jump
+      internalID: 3756463793768891825
+      firstFrame: 0
+      lastFrame: 29.82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Golpear
+      takeName: Idle1
+      internalID: 2411135941744887998
+      firstFrame: 146
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ataque
+      takeName: Atack
+      internalID: 4020272707694564055
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Golpear2
+      takeName: Armature|Armature|Take 001|BaseLayer
+      internalID: 2664421495782113788
+      firstFrame: 550
+      lastFrame: 614
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 30
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 30
+    rootMotionBoneName: shustrilo4_6:Root_M
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

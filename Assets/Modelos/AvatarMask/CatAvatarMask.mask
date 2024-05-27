@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CatAvatarMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_d
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_d/shustrilo4_6:Eye_L_d
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_d/shustrilo4_6:Eye_L_d/shustrilo4_6:Eye_L_d_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_up
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_up/shustrilo4_6:Eye_L_up
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_L_up/shustrilo4_6:Eye_L_up/shustrilo4_6:Eye_L_up_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_d
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_d/shustrilo4_6:Eye_R_d
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_d/shustrilo4_6:Eye_R_d/shustrilo4_6:Eye_R_d_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_up
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_up/shustrilo4_6:Eye_R_up
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:bn_R_up/shustrilo4_6:Eye_R_up/shustrilo4_6:Eye_R_up_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_L/shustrilo4_6:EarEnd_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_L/shustrilo4_6:EarEnd_L/shustrilo4_6:EarEnd_L_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_R/shustrilo4_6:EarEnd_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Ear_R/shustrilo4_6:EarEnd_R/shustrilo4_6:EarEnd_R_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_L/shustrilo4_6:Eye1_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_L/shustrilo4_6:Eye1_L/shustrilo4_6:Eye1_L_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_R/shustrilo4_6:Eye1_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Eye_R/shustrilo4_6:Eye1_R/shustrilo4_6:Eye1_R_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Hair_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Hair_M/shustrilo4_6:Hair_M_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Jaw_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Jaw_M/shustrilo4_6:JawEnd_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Neck_M/shustrilo4_6:NeckPart1_M/shustrilo4_6:NeckPart2_M/shustrilo4_6:Head_M/shustrilo4_6:Jaw_M/shustrilo4_6:JawEnd_M/shustrilo4_6:JawEnd_M_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L/shustrilo4_6:frontAnkle_L
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L/shustrilo4_6:frontAnkle_L/shustrilo4_6:frontBall_L
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_L/shustrilo4_6:frontHip_L/shustrilo4_6:frontKnee_L/shustrilo4_6:frontAnkle_L/shustrilo4_6:frontBall_L/shustrilo4_6:frontBall_L_end
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R/shustrilo4_6:frontAnkle_R
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R/shustrilo4_6:frontAnkle_R/shustrilo4_6:frontBall_R
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:BackA_M/shustrilo4_6:BackB_M/shustrilo4_6:Chest_M/shustrilo4_6:Scapula_R/shustrilo4_6:frontHip_R/shustrilo4_6:frontKnee_R/shustrilo4_6:frontAnkle_R/shustrilo4_6:frontBall_R/shustrilo4_6:frontBall_R_end
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L/shustrilo4_6:backAnkle_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L/shustrilo4_6:backAnkle_L/shustrilo4_6:backBall_L
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_L/shustrilo4_6:backHip_L/shustrilo4_6:backKnee_L/shustrilo4_6:backAnkle_L/shustrilo4_6:backBall_L/shustrilo4_6:backBall_L_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R/shustrilo4_6:backAnkle_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R/shustrilo4_6:backAnkle_R/shustrilo4_6:backBall_R
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Rump_R/shustrilo4_6:backHip_R/shustrilo4_6:backKnee_R/shustrilo4_6:backAnkle_R/shustrilo4_6:backBall_R/shustrilo4_6:backBall_R_end
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M
+    m_Weight: 1
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M/shustrilo4_6:Tail5_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M/shustrilo4_6:Tail5_M/shustrilo4_6:Tail6_M
+    m_Weight: 0
+  - m_Path: Armature/shustrilo4_6:Root_M/shustrilo4_6:Tail0_M/shustrilo4_6:Tail1_M/shustrilo4_6:Tail2_M/shustrilo4_6:Tail3_M/shustrilo4_6:Tail4_M/shustrilo4_6:Tail5_M/shustrilo4_6:Tail6_M/shustrilo4_6:Tail6_M_end
+    m_Weight: 0
+  - m_Path: shustrilo4_6:eye_L007
+    m_Weight: 0
+  - m_Path: shustrilo4_6:eye_R006
+    m_Weight: 0
+  - m_Path: shustrilo4_6:full_lazy002
+    m_Weight: 0
