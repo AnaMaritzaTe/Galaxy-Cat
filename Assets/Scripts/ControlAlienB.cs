@@ -10,20 +10,24 @@ public class ControlAlienB : MonoBehaviour
     public float distance;
     public float rotationSpeed = 100f;
     private Vector3 startPosition;
+
+    public vidaEnemigo enemy;
     // Start is called before the first frame update
     void Start()
     {
         startPosition = transform.position;
         targetPosition = startPosition + new Vector3(distance, 0f, 0f);
 
-        // Iniciar la coroutine de movimiento
         StartCoroutine(MoveToPosition(startPosition, targetPosition, duration));
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (enemy.isdead) 
+        {
+        StopAllCoroutines();
+        }
     }
     private IEnumerator MoveToPosition(Vector3 start, Vector3 target, float duration)
     {
@@ -32,7 +36,6 @@ public class ControlAlienB : MonoBehaviour
         while (timeElapsed < duration)
         {
             transform.position = Vector3.Lerp(start, target, timeElapsed / duration);
-            //transform.Rotate(Vector3.up*-1);
             timeElapsed += Time.deltaTime;
             yield return null; 
                 
@@ -40,8 +43,5 @@ public class ControlAlienB : MonoBehaviour
         transform.position = target;
         StartCoroutine(MoveToPosition(target, start, duration));
     }
-    public void funcionParar()
-    {
-        StopAllCoroutines();
-    }
+   
 }

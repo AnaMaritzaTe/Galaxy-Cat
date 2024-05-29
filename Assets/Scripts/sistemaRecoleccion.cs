@@ -5,6 +5,7 @@ using TMPro;
 
 public class sistemaRecoleccion : MonoBehaviour
 {
+    public bool hasMapa = false;
     public int numPescaditos;
     public TextMeshProUGUI numPezText;
 
@@ -19,6 +20,12 @@ public class sistemaRecoleccion : MonoBehaviour
         {
             Destroy(other.gameObject);
             numPescaditos++;    
+        }
+
+        if (other.gameObject.CompareTag("mapa"))
+        {
+            Destroy(other.gameObject);
+            hasMapa = true;
         }
     }
 }

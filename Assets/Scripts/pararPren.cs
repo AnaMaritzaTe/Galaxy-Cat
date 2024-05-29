@@ -15,7 +15,6 @@ public class pararPren : MonoBehaviour
     void Start()
     {
         
-        //animP = GetComponent<aminPrensa>();
     }
 
     // Update is called once per frame

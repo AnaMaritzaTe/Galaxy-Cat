@@ -28,4 +28,14 @@ public class ControlVida : MonoBehaviour
             Debug.Log("Esta muerto el michi");
         }
     }
+
+    public void masVida(float CantidadVida)
+    {
+        vida += CantidadVida;
+        barraVida.CambiarVidaActual(vida);
+        if(vida >=100)
+        {
+            vida = 100;
+        }
+    }
 }

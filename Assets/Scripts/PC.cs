@@ -13,6 +13,7 @@ public class PC : MonoBehaviour
     public float force;
     public float velocidadRot;
     public Transform Objeto;
+    public controlAnimaciones controlAnimaciones;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,11 +33,11 @@ public class PC : MonoBehaviour
         rb.velocity = frontmovement + sidemovement + (Vector3.up * tmpgravity.y);
         Objeto.Rotate(0, Input.GetAxis("Mouse X") * velocidadRot * Time.deltaTime, 0);
 
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        /*if (Input.GetKeyDown(KeyCode.Space)) 
         {
         rb.AddForce(Vector3.up*force, ForceMode.Impulse);
             
-        }
+        }*/
         
     }
 }

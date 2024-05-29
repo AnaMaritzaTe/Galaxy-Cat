@@ -9,7 +9,10 @@ TagManager:
   - laser
   - PararPrensa
   - coladera
-  - plane
+  - Ground
+  - corazon
+  - golpe
+  - mapa
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - Water
   - UI
   - isWall
-  - 
+  - isGround
   - 
   - 
   - 

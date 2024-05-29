@@ -50,8 +50,6 @@ public class aminPrensa : MonoBehaviour
     public void funcionParar ()
     {
         StopAllCoroutines();
-        Debug.Log("Se ha ejecutado la funcion stop" );
-
     }
 
 }
