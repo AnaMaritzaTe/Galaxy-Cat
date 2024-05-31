@@ -33,7 +33,6 @@ public class EnemigoB : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Destroy(this.gameObject);
-            Debug.Log("Ha salido del trigger");
         }
     }
 }

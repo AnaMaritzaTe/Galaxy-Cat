@@ -13,6 +13,12 @@ TagManager:
   - corazon
   - golpe
   - mapa
+  - Gun
+  - Bullet
+  - escena
+  - bala
+  - especial
+  - rata
   layers:
   - Default
   - TransparentFX

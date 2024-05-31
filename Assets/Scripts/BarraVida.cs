@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BarraVida : MonoBehaviour
 {
-    private Slider slider;
+    public Slider slider;
     public GameObject mapaObj;
     public sistemaRecoleccion mapa;
     
@@ -14,7 +14,7 @@ public class BarraVida : MonoBehaviour
     void Start()
     {
         mapaObj.SetActive(false);
-        slider = GetComponent<Slider>();
+        //slider = GetComponent<Slider>();
     }
 
     // Update is called once per frame

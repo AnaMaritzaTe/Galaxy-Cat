@@ -1,24 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class controlAnimaciones : MonoBehaviour
 {
     public Animator playerAnimator;
     public bool hasJumped = false;
     public bool orueba = false;
-    public float dano = 10f;
+    public float dano = 5f;
     public float vidaEx = 20f;
     public float force;
     public ControlVida contVida;
     private Rigidbody rb;
+    public BoxCollider rbCollider;
     public BoxCollider punoBoxCol;
+    public bool isDead = false;
+    public sistemaRecoleccion num;
     //public BoxCollider punoBoxCol;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        //rbCollider = GetComponent<BoxCollider>();
+        
          desactivarColliderPuno();
+        desactivarColliderEspecial();
     }
 
     // Update is called once per frame
@@ -27,14 +34,6 @@ public class controlAnimaciones : MonoBehaviour
         //Animator 
         playerAnimator.SetFloat("Speed", Input.GetAxis("Vertical"));
 
-        /*AnimatorClipInfo[] currentClipInfo = playerAnimator.GetCurrentAnimatorClipInfo(0);
-        if (currentClipInfo.Length > 0)
-        {
-            AnimationClip currentClip = currentClipInfo[0].clip;
-
-            Debug.Log("Clip de animación actual: " + currentClip.name);
-        }*/
-        Debug.Log("el valor de hasJumo es: " + hasJumped);
 
         if (Input.GetKeyDown(KeyCode.Space) && !hasJumped)
         {
@@ -59,26 +58,18 @@ public class controlAnimaciones : MonoBehaviour
             desactivarColliderPuno();
 
         }
-        ///////Provisional PAra recibir daño
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            playerAnimator.SetTrigger("Dano");
 
-        }
-        ///////Provisional PAra morir
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (num.numPescaditos >= 20)
         {
-            playerAnimator.SetTrigger("Dead");
-        }
-        ///////Provisional PAra caer
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            playerAnimator.SetTrigger("Caer");
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            playerAnimator.SetTrigger("Especial");
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                activarColliderEspecial();
+                playerAnimator.SetTrigger("Especial");
+            }
+            if(Input.GetKeyUp(KeyCode.E))
+            {
+                desactivarColliderEspecial();
+            }
         }
     }
     /////////////////////////////////////////////////////
@@ -87,23 +78,30 @@ public class controlAnimaciones : MonoBehaviour
         if (other.gameObject.CompareTag("prensa"))
         {
             playerAnimator.SetTrigger("Dead");
+            isDead = true;
+            
         }
 
         if (other.gameObject.CompareTag("laser"))
         {
             playerAnimator.SetTrigger("Dano");
-            dano += dano;
+            //dano += dano;
             contVida.hacerDano(dano);
         }
         if (other.gameObject.CompareTag("coladera"))
         {
             playerAnimator.SetTrigger("Caer");
+            isDead = true;
         }
 
         if (other.gameObject.CompareTag("corazon"))
         {
             contVida.masVida(vidaEx);
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("final");
         }
     }
 
@@ -124,6 +122,24 @@ public class controlAnimaciones : MonoBehaviour
         punoBoxCol.enabled = false;
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.CompareTag("Bullet"))
+        {
+            playerAnimator.SetTrigger("Dano");
+            //dano += dano;
+            contVida.hacerDano(dano);
+        }
+    }
+
+    public void activarColliderEspecial()
+    {
+        rbCollider.enabled = true;
+    }
+    public void desactivarColliderEspecial()
+    {
+        rbCollider.enabled = false;
+    }
 }
 
    

@@ -25,7 +25,7 @@ public class ControlVida : MonoBehaviour
         barraVida.CambiarVidaActual(vida);
         if (vida <= 0) 
         {
-            Debug.Log("Esta muerto el michi");
+            Debug.Log("El micho esta muerto");
         }
     }
 

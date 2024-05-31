@@ -10,36 +10,37 @@ public class vidaEnemigo : MonoBehaviour
     public Animator animEnemi;
     public bool isdead = false;
 
-    
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "golpe")
+        if (other.gameObject.tag == "golpe")
         {
-            if(animEnemi != null)
+            if (animEnemi != null)
             {
                 animEnemi.Play("GetHit");
             }
             hp -= danoGolpe;
         }
-        if(hp <= 0)
+        if (hp <= 0)
         {
             animEnemi.Play("Die");
             isdead = true;
         }
         
+
     }
 
     
