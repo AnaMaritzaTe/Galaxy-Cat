@@ -101,6 +101,7 @@ public class controlAnimaciones : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Finish"))
         {
+            Debug.Log("colisiona");
             SceneManager.LoadScene("final");
         }
     }
@@ -129,6 +130,12 @@ public class controlAnimaciones : MonoBehaviour
             playerAnimator.SetTrigger("Dano");
             //dano += dano;
             contVida.hacerDano(dano);
+        }
+
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            Debug.Log("colisiona");
+            SceneManager.LoadScene("final");
         }
     }
 
